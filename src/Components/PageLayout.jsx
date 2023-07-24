@@ -6,8 +6,10 @@ import Sidebar from './Sections/Sidebar'
 export default function PageLayout() {
   return (
     <>
-      <Sidebar />
-      <Outlet/>
+      <div className='flex gap-2'>
+      <div><Sidebar /></div>
+      <div><Outlet/></div>
+      </div>
       <Footer/>
     </>
   )

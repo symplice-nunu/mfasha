@@ -1,8 +1,9 @@
-
+import React from "react";
+import Login from "./Pages/Login";
 function App() {
   return (
-    <div className="bg-red-500">
-      test
+    <div className="">
+      <Login/>
     </div>
   );
 }

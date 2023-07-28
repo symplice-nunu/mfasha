@@ -26,13 +26,15 @@ export default function Navbar() {
               <IoMdNotificationsOutline />
             </div>
           </div>
-          <div className='flex gap-1 pt-2'>
-            <div>
-              <img src={Profile} className='rounded-full h-4' alt='User Profile' />
-            </div>
-            <div className='text-[11px] font-bold font-[Times New Roman]'>Noella</div>
-            <div>
-              <MdKeyboardArrowDown />
+          <div className=' pt-2'>
+            <div className='flex gap-1 border px-1 rounded-full py-1 shadow'>
+              <div>
+                <img src={Profile} className='rounded-full h-4' alt='User Profile' />
+              </div>
+              <div className='text-[11px] font-bold font-[Times New Roman]'>Noella</div>
+              <div>
+                <MdKeyboardArrowDown />
+              </div>
             </div>
           </div>
         </div>

@@ -69,6 +69,7 @@ export default function Login() {
               src="https://tecdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/draw2.svg"
               class="w-full"
               alt="Phone image"
+              aria-hidden="true"
             />
           </div>
         </div>

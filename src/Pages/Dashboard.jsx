@@ -1,5 +1,4 @@
 import React from 'react'
-import { FaUsers } from 'react-icons/fa'
 import users from '../images/users.png'
 import patient from '../images/patient.png'
 import comment from '../images/comment.png'
@@ -10,7 +9,7 @@ import doctor from '../images/doctor.png'
 
 export default function Dashboard() {
   return (
-    <div className='mx-7'>
+    <div className='mx-7 font-[Timenewromans]'>
       <div className='grid grid-cols-4 gap-2'>
         <div className='bg-[#6e62e5] p-4 rounded-xl flex gap-3'>
           <div className='mt-1 border-2 border-red-500 rounded-full p-2 bg-teal-100'><img src={users} className='h-8 w-8' alt='all users' /></div>
@@ -74,6 +73,23 @@ export default function Dashboard() {
             <div className='text-[10px] text-[#a199ee]'>Comment</div>
             <div className='text-white'>5000 <span className='bg-white py-[2px] px-[6px] rounded-full text-[#968cec] text-[10px]'>23%</span> </div>
             <div className='text-[10px] text-[#a199ee]'>Negative Comment <b className='text-white'>2134</b></div>
+          </div>
+        </div>
+      </div>
+      <div className='border-[1px] p-4 rounded-xl my-6 border-gray-100'>
+        <div>
+          <h1 className='font-bold '>Total Transfers and Hospital</h1>
+          <span className='text-[10px] text-gray-400'>Last 20 days</span>
+        </div>
+        <div>
+          <div>
+            <span className='text-[#6255e3] font-bold text-[25px]'>900.26</span>
+            &nbsp; &nbsp;
+            <span className='bg-[#c3f9d9] px-3 rounded-full text-[10px] py-[2px] text-[#6cd98c] font-bold'>+5.4%</span>
+          </div>
+          <div className='text-[10px] text-gray-400'> 
+            <span className='text-[#6cd98c]'>+2.1k</span> 
+            &nbsp; Per Day
           </div>
         </div>
       </div>

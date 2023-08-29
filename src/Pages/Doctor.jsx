@@ -16,9 +16,9 @@ import React, { useState } from 'react'
         {showForm && (
           <form action="" className='w-2/4 text-black bg-[#f8f8f8] border p-4'>
             <ul className='flex-col gap-2'>
-              <li className='flex flex-col '>
+              <li className='flex '>
                 <label htmlFor="">Name</label>
-                <input type="text" className=' bg-transparent border-b border-b-1 border-b-solid border-b-black active:border active:border-grey' />
+                <input type="text" className=' bg-transparent border border-solid border-b-grey focus:border focus:border-grey' />
               </li>
               <li className='flex-col gap-4'>
                 <label htmlFor="">Phone number</label>
@@ -31,6 +31,7 @@ import React, { useState } from 'react'
               <li>
                 <label htmlFor="">Title</label>
                 <select name="" id="">
+                  <option value="">Dr</option>
                   <option value="">Mr</option>
                   <option value="">Mrs</option>
                   <option value="">Ms</option>
